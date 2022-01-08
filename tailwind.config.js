@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backdropBlur: { xs: "3px" },
-      colors: { "woffee-1": "#3794FC" },
+      colors: { "woffee-1": "#3794FC", "woffee-2": "#123A68" },
       fontFamily: {
         sans: ["Poppins", "sans-serif"],
       },
