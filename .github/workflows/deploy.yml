@@ -28,6 +28,8 @@ jobs:
         run: |
           yarn build
           yarn next export
+          cd out
+          touch .nojekyll
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.2.0
         with:
