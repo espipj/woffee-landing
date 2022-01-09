@@ -13,5 +13,4 @@ module.exports = {
     },
   },
   plugins: [],
-  assetPrefix: "/woffee-landing/",
 };
