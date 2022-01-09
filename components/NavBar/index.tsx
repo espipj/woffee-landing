@@ -4,7 +4,8 @@ const NavBar = () => {
       <div className="max-w-8xl mx-auto">
         <div className="md:pt-2 md:pb-1 md:px-4 pt-2 pb-1 px-3">
           <img
-            src={`${process.env.BASE_URL}/woffee.svg" alt="Woffee Logo`}
+            src={`${process.env.BASE_URL || "/woffee-landing"}/woffee.svg`}
+            alt="Woffee Logo"
             width={180}
             height={40}
           />

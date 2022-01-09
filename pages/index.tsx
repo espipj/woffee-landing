@@ -32,7 +32,9 @@ const Home: NextPage = () => {
           </span>
           <div className="sm:basis-2/3 px-2">
             <img
-              src={`${process.env.BASE_URL}/woffee-illus.svg`}
+              src={`${
+                process.env.BASE_URL || "/woffee-landing"
+              }/woffee-illus.svg`}
               alt="Co-working"
             />
           </div>
