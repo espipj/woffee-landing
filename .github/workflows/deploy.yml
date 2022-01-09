@@ -25,6 +25,8 @@ jobs:
       - name: Install node dependencies
         run: yarn --prefer-offline
       - name: Build 🏗️
+        env:
+          BASE_URL: "/woffee-landing"
         run: |
           yarn build
           yarn next export

@@ -31,7 +31,10 @@ const Home: NextPage = () => {
             <SignUp />
           </span>
           <div className="sm:basis-2/3 px-2">
-            <img src="/woffee-illus.svg" alt="Co-working" />
+            <img
+              src={`${process.env.BASE_URL}/woffee-illus.svg`}
+              alt="Co-working"
+            />
           </div>
         </div>
         <div className="container mx-auto">
