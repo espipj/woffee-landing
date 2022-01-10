@@ -1,6 +1,6 @@
 const NavBar = () => {
   return (
-    <div className="sticky md:mx-9 top-0 mx-1 my-1 z-40 backdrop-blur bg-white/80 rounded-2xl ">
+    <div className="sticky md:mx-9 top-0 z-40 backdrop-blur bg-white/80">
       <div className="max-w-8xl mx-auto">
         <div className="md:pt-2 md:pb-1 md:px-4 pt-2 pb-1 px-3">
           <img
