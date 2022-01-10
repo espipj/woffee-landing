@@ -14,6 +14,7 @@ const Home: NextPage = () => {
           content="Woffee is a social app where you can find and buddy up with remote
               workers just around the corner"
         />
+        <meta name="theme-color" content="#3794FC"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
