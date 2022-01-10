@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import AppDownload from "../components/AppDownload";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import SignUp from "../components/SignUp";
@@ -40,59 +39,6 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className="container mx-auto">
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
-          <p>Some stuff</p>
           <p>Some stuff</p>
           <p>Some stuff</p>
           <p>Some stuff</p>
