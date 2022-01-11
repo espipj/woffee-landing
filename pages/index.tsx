@@ -19,8 +19,8 @@ const Home: NextPage = () => {
       </Head>
       <main>
         <NavBar />
-        <div className="container mx-auto md:px-12 flex flex-row">
-          <span className="sm:basis-1/3 px-2 flex flex-col justify-center space-y-6">
+        <div className="container mx-auto md:px-12 flex flex-row flex-wrap-reverse md:flex-nowrap">
+          <div className="basis-full md:basis-1/3 px-2 flex flex-col justify-center space-y-6">
             <h1 className="font-sans font-bold text-6xl antialiased">
               Further than just work &amp; coffee
             </h1>
@@ -29,8 +29,8 @@ const Home: NextPage = () => {
               workers just around the corner
             </p>
             <SignUp />
-          </span>
-          <div className="sm:basis-2/3 px-2">
+          </div>
+          <div className="basis-full md:basis-2/3 px-2">
             <img
               src={`${
                 process.env.BASE_URL || "/woffee-landing"
